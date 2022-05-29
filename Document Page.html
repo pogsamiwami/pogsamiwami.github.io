@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                  <img src="Images/Illustrator logo for web.png" alt="" width="90" height="72">
+                  </a>
+                  <a class="navbar-brand" href="index.html">SaveCloud</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active modalEvent" aria-current="page" href="#">Upload Document
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </a> 
+                      </li>
+                      <li class="nav-item">
+                        <a href="Working Files/Example Document  Winrar.zip" download class="btn nav-link"><i class="fa fa-download"></i> Download All</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search File" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <form action="/action_page.php">
+        <label for="fname">Title:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
